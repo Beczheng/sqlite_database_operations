@@ -19,4 +19,4 @@ Homework assignment #3: Introduction to the world of databases, starting with SQ
     7. Create an engine using `create_engine` to connect to the database.
     8. Turn the table into a pandas dataframe using `pd.read_sql()`.
 
-For more information about the code click [here](https://github.com/Beczheng/sqlite_database_operations/blob/main/HHA_504_HW_3.ipynb)
+For more details about the code click [here](https://github.com/Beczheng/sqlite_database_operations/blob/main/HHA_504_HW_3.ipynb)
