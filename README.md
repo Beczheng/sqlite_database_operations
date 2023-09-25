@@ -12,7 +12,7 @@ Homework assignment #3: Introduction to the world of databases, starting with SQ
 - How to replicate my SQLite database setup:
     1. Import create_engine: `from sqlalchemy import create_engine`.
     2. Import SQLite: `import sqlite3`.
-    3. Using `sqlite3.connect(<name of database>)`, create and name your database `<health.db>`.
+    3. Create and name your database `<health.db>`.
     4. Create a table using the SQL command `CREATE TABLE`. Next to it, write the name of the table `<name of table>`.
     5. Create new columns for the table.
     6. Create new rows with data for the table.
