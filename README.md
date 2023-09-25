@@ -14,9 +14,9 @@ Homework assignment #3: Introduction to the world of databases, starting with SQ
     2. Import SQLite: `import sqlite3`.
     3. Using SQLite, create and name your database `health.db`.
     4. Create a table using the SQL command `CREATE TABLE`. Next to it, name your table `<name of table>`.
-       - Create new columns for the table.
-       - Create new rows with data for the table. Use the SQL command `INSERT INTO <name of table>`.
-    5. Create an engine using `create_engine` to connect to the database.
-    6. Turn the table into a pandas dataframe using `pd.read_sql()`.
+    5. Create new columns for the table.
+    6. Create new rows with data for the table. Use the SQL command `INSERT INTO <name of table>`.
+    7. Create an engine using `create_engine` to connect to the database.
+    8. Turn the table into a pandas dataframe using `pd.read_sql()`.
 
-       For more information about the code click [here](https://github.com/Beczheng/sqlite_database_operations/blob/main/HHA_504_HW_3.ipynb)
+For more information about the code click [here](https://github.com/Beczheng/sqlite_database_operations/blob/main/HHA_504_HW_3.ipynb)
