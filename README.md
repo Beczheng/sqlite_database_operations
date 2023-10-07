@@ -13,7 +13,7 @@
 - How to replicate my SQLite database setup:
     1. Import SQLite: `import sqlite3`.
     2. Import create_engine: `from sqlalchemy import create_engine`.
-    3. Create a connection object using `sqlite3.connect()`.
+    3. Create a connection object using `sqlite3.connect(<'name of database'>)`.
     4. Create a cursor object using `.cursor()`.
     6. Create a table with columns using the SQL command `CREATE TABLE <name of table>`. Then, execute it using `execute()`. Make sure to commit the changes using `.connect()`.
     7. Create rows with data for the table. Then, execute it using `execute()`. Make sure to commit the changes using `.connect()`
