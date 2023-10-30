@@ -18,10 +18,9 @@
 - Create the following: 
     1. Create a connection object using `sqlite3.connect(<'name of database'>)`.
     2. Create a cursor object using `.cursor()`.
-    3. Create a new table with columns using the SQL command `CREATE TABLE <name of table>`. Then, execute it using `execute()`. Make sure to commit the changes using `.connect()`.
-    4. Create and insert new rows with data into the table using the SQL command `INSERT INTO <name of table>`. Then, execute it using `execute()`. Make sure to commit the changes using `.connect()`
-    5. Create an engine using `create_engine` to connect to the database.
-    6. Turn the table into a pandas dataframe using `pd.read_sql()`.
+    3. Create a new table with columns using the SQL command `CREATE TABLE <name of table>`. Then, execute it using `execute()`. Make sure to commit the changes using `.commit()`.
+    4. Create and insert new rows with data into the table using the SQL command `INSERT INTO <name of table>`. Then, execute it using `execute()`. Make sure to commit the changes using `.commit()`
+    5. Turn the table into a pandas dataframe using `pd.read_sql()`.
 - Close the following:
-    1. Close the connection object and cursor object using `.close()`.
+    6. Close the connection and cursor using `.close()`.
     For more details about the code click [here](https://github.com/Beczheng/sqlite_database_operations/blob/main/HHA_504_HW_3.ipynb)
