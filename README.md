@@ -5,11 +5,11 @@
 - Homework assignment #3: Introduction to the world of databases, starting with SQLite. Integrate data processing with Python, utilize Pandas for exploratory data analysis, and conduct database operations using SQLite.
 
 ### Summary of the assignment
-- Details on the datasets:
-    - Used datasets from New York Presbyterian Hospital and St. Joseph Hospital. The datasets contain information about standard pricing for hospital services.
-- Data analysis process:
-    - Conducted summary statistics for both datasets. For the columns with numerical data, I calculated the count, mean, minimum, maximum, standard deviation, and quartiles. For the columns with catergorical data, I calculated the count, frequency, top data, and unique data.
-    - Created histograms for both datasets. For the New York Presbyterian Hospital dataset, I specifically looked at the "minimum negotiated charges" column. For the St. Joseph Hospital dataset, I specifically looked at the "package size" column.
+#### 1. Details on the datasets:
+- Used datasets from New York Presbyterian Hospital and St. Joseph Hospital. The datasets contain information about standard pricing for hospital services.
+#### 2. Data analysis process:
+- Conducted summary statistics for both datasets. For the columns with numerical data, I calculated the count, mean, minimum, maximum, standard deviation, and quartiles. For the columns with catergorical data, I calculated the count, frequency, top data, and unique data.
+- Created histograms for both datasets. For the New York Presbyterian Hospital dataset, I specifically looked at the "minimum negotiated charges" column. For the St. Joseph Hospital dataset, I specifically looked at the "package size" column.
 
 ### Steps to replicate my assignment
 #### 1. Import the following:
